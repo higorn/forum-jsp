@@ -1,0 +1,23 @@
+<dataset>
+  <usuario login="dante" email="dante@email.com" nome="Dante" senha="1234" pontos="2"/>
+  <usuario login="ledesma" email="ledesma@email.com" nome="Ledesma" senha="1234" pontos="7"/>
+  <usuario login="nicanor" email="nicanor@email.com" nome="Nica Nor" senha="1234" pontos="3"/>
+  <usuario login="ramon" email="ramon@email.com" nome="Ramon" senha="4321" pontos="4"/>
+
+  <topico id_topico="1" titulo="Java Avançado"
+          conteudo="Como fazer para passar no curso de Java Avançado do ITA"
+          login="dante"/>
+  <topico id_topico="2" titulo="Java jsp servlet session"
+          conteudo="Como Como usar sessão/cookies com servlets e jsp."
+          login="dante"/>
+  <topico titulo="Java Avançado Test" conteudo="lorem ipsum, bla blablaba" login="ledesma"/>
+
+  <comentario id_comentario="1"
+              comentario="É muito fácil, basta dedicar pelo menos 40 min por dia e entregar todas as tarefas dentro do prazo."
+              login="ramon" id_topico="1"/>
+  <comentario id_comentario="2"
+              comentario="Uma dica é acompanhar os hands-on's reproduzindo o que é feito nos videos e testando."
+              login="ledesma" id_topico="1"/>
+  <comentario comentario="Cookie cookie = new Cookie(key, Val); response.addCookie(cookie);"
+              login="ledesma" id_topico="2"/>
+</dataset>
